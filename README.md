@@ -3,7 +3,7 @@
 
 Problem Code : A7
 
-This is the positive psychology quiz app which will develop a repect for rights and dignity of women and children and promote objectives of #BetBachaoBetiPadhao.
+This is the positive psychology quiz app which will develop a respect for rights and dignity of women and children and promote objectives of #BetBachaoBetiPadhao.
 
 Quiz app 
 
