@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:womania/screens/welcome.dart';
+import 'package:womania/screens/quiz.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Womania',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: WelcomeScreen(),
+      home: QuizScreen(),
     );
   }
 }
