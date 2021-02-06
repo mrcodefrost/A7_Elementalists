@@ -17,7 +17,26 @@ class Body extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
             child: Column(
-              children: [TimeBar()],
+              children: [
+                TimeBar(),
+                Text.rich(
+                  TextSpan(
+                      text: 'Question 1',
+                      style: Theme.of(context)
+                          .textTheme
+                          .headline4
+                          .copyWith(color: kSecondaryColor),
+                      children: [
+                        TextSpan(
+                          text: '/10',
+                          style: Theme.of(context)
+                              .textTheme
+                              .headline5
+                              .copyWith(color: kSecondaryColor),
+                        )
+                      ]),
+                ),
+              ],
             ),
           ),
         )

@@ -7,43 +7,58 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple.shade100,
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           // WebsafeSvg.asset("assets/4.svg"),
+          Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                stops: [0.09, 0.4, 0.1],
+                colors: [Colors.greenAccent, Colors.white, Colors.greenAccent],
+              ),
+            ),
+          ),
           SafeArea(
               child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SizedBox(
-                  height: 100.0,
+                Spacer(flex: 2),
+                Center(
+                  child: Text(
+                    'Womania',
+                    style: TextStyle(
+                      fontFamily: 'Dancing Script',
+                      fontSize: 80.0,
+                      color: Colors.teal[800],
+                    ),
+                  ),
                 ),
-                Text(
-                  'Womania',
-                  style: Theme.of(context).textTheme.headline4.copyWith(
-                        color: Colors.deepPurple,
-                        fontWeight: FontWeight.w500,
-                      ),
+                Divider(
+                  color: Colors.green.shade100,
+                  thickness: 1.0,
+                  indent: 100.0,
+                  endIndent: 100.0,
                 ),
-                Text("Your Name?"),
                 SizedBox(
                   height: 20.0,
                 ),
                 TextField(
                   decoration: InputDecoration(
+                    hoverColor: Colors.deepOrange,
                     filled: true,
-                    fillColor: Color(0xFF1C2341),
+                    fillColor: Colors.greenAccent.shade400, //0xFF1C2341
                     hintText: 'Full Name',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                     ),
                   ),
                 ),
-                SizedBox(
-                  height: 20.0,
-                ),
+                Spacer(),
                 InkWell(
                   onTap: () {},
                   child: Container(
@@ -55,17 +70,17 @@ class WelcomeScreen extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                     ),
                     child: Text(
-                      'Let\'s begin',
-                      style: Theme.of(context)
-                          .textTheme
-                          .button
-                          .copyWith(color: Colors.black),
+                      'START QUIZ',
+                      style: TextStyle(
+                        fontFamily: 'Cinzel',
+                        fontSize: 40.0,
+                        // fontWeight: FontWeight.w500,
+                        color: Colors.green.shade700,
+                      ),
                     ),
                   ),
                 ),
-                SizedBox(
-                  height: 20.0,
-                ),
+                Spacer(flex: 2),
               ],
             ),
           ))
