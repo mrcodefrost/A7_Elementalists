@@ -72,7 +72,7 @@ class WelcomeScreen extends StatelessWidget {
                     child: Text(
                       'START QUIZ',
                       style: TextStyle(
-                        fontFamily: 'Cinzel',
+                        fontFamily: 'Fredericka the Great',
                         fontSize: 40.0,
                         // fontWeight: FontWeight.w500,
                         color: Colors.green.shade700,
