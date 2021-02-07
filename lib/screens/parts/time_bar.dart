@@ -38,9 +38,9 @@ class TimeBar extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(
-                            '${(controller.animation.value * 30).round()} sec'),
-                        Icon(Icons.timer),
+                        // Text(
+                        //     '${(controller.animation.value * 30).round()} sec'),
+                        Icon(Icons.timer, color: Colors.black),
                       ],
                     ),
                   ),
