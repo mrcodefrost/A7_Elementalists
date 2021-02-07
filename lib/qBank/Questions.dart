@@ -76,4 +76,37 @@ const List sample_data = [
     ],
     "answer_index": 0,
   },
+  {
+    "id": 6,
+    "question": "First Woman IAS officer in India",
+    "options": [
+      'Anna George Malhotra',
+      'M. Fatima Biwi',
+      'Kiran Bedi',
+      'None of the above'
+    ],
+    "answer_index": 0,
+  },
+  {
+    "id": 6,
+    "question": "First Woman IAS officer in India",
+    "options": [
+      'Anna George Malhotra',
+      'M. Fatima Biwi',
+      'Kiran Bedi',
+      'None of the above'
+    ],
+    "answer_index": 0,
+  },
+  {
+    "id": 6,
+    "question": "First Woman IAS officer in India",
+    "options": [
+      'Anna George Malhotra',
+      'M. Fatima Biwi',
+      'Kiran Bedi',
+      'None of the above'
+    ],
+    "answer_index": 0,
+  },
 ];
