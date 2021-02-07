@@ -21,7 +21,8 @@ const List sample_data = [
   },
   {
     "id": 2,
-    "question": "Untouchability is abolished under __ of Indian constitution",
+    "question":
+        "Untouchability is abolished under ______ of Indian constitution",
     "options": ['Article 17', 'Article 202', 'Article 143', 'Article 27'],
     "answer_index": 0,
   },
