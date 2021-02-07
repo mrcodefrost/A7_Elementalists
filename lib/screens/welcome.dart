@@ -19,7 +19,11 @@ class WelcomeScreen extends StatelessWidget {
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
                 stops: [0.09, 0.4, 5],
-                colors: [Colors.greenAccent, Colors.white, Colors.greenAccent],
+                colors: [
+                  Colors.deepPurple.shade100,
+                  Colors.white,
+                  Colors.white
+                ],
               ),
             ),
           ),
@@ -97,7 +101,7 @@ class WelcomeScreen extends StatelessWidget {
                         fontFamily: 'Fredericka the Great',
                         fontSize: 40.0,
                         // fontWeight: FontWeight.w500,
-                        color: Colors.green.shade700,
+                        color: Colors.white,
                       ),
                     ),
                   ),

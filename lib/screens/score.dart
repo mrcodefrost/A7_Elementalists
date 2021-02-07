@@ -18,8 +18,8 @@ class ScoreScreen extends StatelessWidget {
                 "Congratulations !!",
                 style: TextStyle(
                   fontFamily: 'Dancing Script',
-                  color: Colors.green,
-                  fontSize: 40.0,
+                  color: Colors.deepPurple,
+                  fontSize: 50.0,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -27,19 +27,25 @@ class ScoreScreen extends StatelessWidget {
               Text("You Scored",
                   style: TextStyle(
                     fontFamily: 'Cinzel',
-                    color: Colors.green,
+                    color: Colors.deepPurple,
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
                   )),
               Spacer(),
+              Divider(
+                color: Colors.deepPurpleAccent.shade200,
+              ),
               Text(
                   "${_qnControl.numOfCorrectAns * 10}/${_qnControl.questions.length * 10}",
                   style: TextStyle(
                     fontFamily: 'Fredericka the Great',
-                    color: Colors.greenAccent,
+                    color: Colors.deepPurpleAccent.shade200,
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
                   )),
+              Divider(
+                color: Colors.deepPurpleAccent.shade200,
+              ),
               Spacer(flex: 3),
             ],
           )

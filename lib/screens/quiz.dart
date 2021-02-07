@@ -16,7 +16,16 @@ class QuizScreen extends StatelessWidget {
         actions: [
           FlatButton(
             onPressed: _control.nextQuestion,
-            child: Text("Skip"),
+            splashColor: Colors.deepPurple,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(18.0),
+                side: BorderSide(color: Colors.transparent)),
+            child: Text(
+              "Skip",
+              style: TextStyle(
+                color: Colors.deepPurple[900],
+              ),
+            ),
           )
         ],
       ),
