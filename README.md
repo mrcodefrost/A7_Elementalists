@@ -7,7 +7,7 @@ This is the positive psychology quiz app which will develop a respect for rights
 
 Quiz app 
 
-
+![App Icon](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/Icon%20Image.png)
 
 ## Getting Started
 
@@ -16,5 +16,5 @@ Quiz app
 # --> The App proposed is built using Flutter framework, Hence the App will be cross platform ( Available on both iOS and Android Devices)
 # --> The overall theme of this app is to push the Indian society towards offering girl-child a better and safe environment to grow in.
 
-![App Icon](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/Icon%20Image.png)
+
 ![Girl Pic](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/Girl%20Pic.jpg)
