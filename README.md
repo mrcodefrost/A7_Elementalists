@@ -11,10 +11,13 @@ Quiz app
 
 ## Getting Started
 
-# --> Womania is a quiz based app for broadening public knowledge about provisions provided by Indian government on women's safety and special facilities provided for them.
-# --> We designed an app for broadening public knowledge about provisions provided by Indian government on women's safety and special facilities provided for them.
-# --> The App proposed is built using Flutter framework, Hence the App will be cross platform ( Available on both iOS and Android Devices)
-# --> The overall theme of this app is to push the Indian society towards offering girl-child a better and safe environment to grow in.
+--> Womania is a quiz based app for broadening public knowledge about provisions provided by Indian government on women's safety and special facilities provided for them.
+
+--> We designed an app for broadening public knowledge about provisions provided by Indian government on women's safety and special facilities provided for them.
+
+--> The App proposed is built using Flutter framework, Hence the App will be cross platform ( Available on both iOS and Android Devices)
+
+--> The overall theme of this app is to push the Indian society towards offering girl-child a better and safe environment to grow in.
 
 
 ![Girl Pic](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/Girl%20Pic.jpg)
