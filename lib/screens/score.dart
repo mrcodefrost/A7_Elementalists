@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:womania/controllers/questions_ctrl.dart';
@@ -36,13 +37,14 @@ class ScoreScreen extends StatelessWidget {
                 color: Colors.deepPurpleAccent.shade200,
               ),
               Text(
-                  "${_qnControl.numOfCorrectAns * 10}/${_qnControl.questions.length * 10}",
-                  style: TextStyle(
-                    fontFamily: 'Fredericka the Great',
-                    color: Colors.deepPurpleAccent.shade200,
-                    fontSize: 40.0,
-                    fontWeight: FontWeight.bold,
-                  )),
+                "${_qnControl.numOfCorrectAns * 10}/${_qnControl.questions.length * 10}",
+                style: TextStyle(
+                  fontFamily: 'Fredericka the Great',
+                  color: Colors.deepPurpleAccent.shade200,
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               Divider(
                 color: Colors.deepPurpleAccent.shade200,
               ),
