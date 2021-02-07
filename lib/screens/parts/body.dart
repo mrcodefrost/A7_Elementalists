@@ -27,23 +27,27 @@ class Body extends StatelessWidget {
                 child: TimeBar(),
               ),
               SizedBox(height: kDefaultPadding),
-              Obx(
-                () => Text.rich(
-                  TextSpan(
-                      text: 'Question ${_questioncontrol.questionNumber.value}',
-                      style: Theme.of(context)
-                          .textTheme
-                          .headline4
-                          .copyWith(color: kSecondaryColor),
-                      children: [
-                        TextSpan(
-                          text: '/${_questioncontrol.questions.length}',
-                          style: Theme.of(context)
-                              .textTheme
-                              .headline5
-                              .copyWith(color: kSecondaryColor),
-                        )
-                      ]),
+              Center(
+                child: Obx(
+                  () => Text.rich(
+                    TextSpan(
+                        text:
+                            'Question ${_questioncontrol.questionNumber.value}',
+                        style: TextStyle(
+                          fontFamily: 'Cinzel',
+                          fontWeight: FontWeight.bold,
+                          fontSize: 25.0,
+                        ),
+                        children: [
+                          TextSpan(
+                            text: '/${_questioncontrol.questions.length}',
+                            style: Theme.of(context)
+                                .textTheme
+                                .headline5
+                                .copyWith(color: kSecondaryColor),
+                          )
+                        ]),
+                  ),
                 ),
               ),
               Divider(

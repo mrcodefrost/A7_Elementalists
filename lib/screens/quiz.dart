@@ -8,7 +8,7 @@ class QuizScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     QuestionControl _control = Get.put(QuestionControl());
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.deepPurple.shade100,
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
