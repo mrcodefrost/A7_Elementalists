@@ -28,6 +28,9 @@ Quiz app
 
 This project is built by the team Elementalists for the Apscript Hackathon.
 > Daksh (Admin) - Lead Flutter Dev
+
 > Shubham - Icon Design & Video
+
 > Siddharth - Graphic Design & Video
+
 > Shubhi - Question Bank & Presentation & Flutter Dev (UI Design)
