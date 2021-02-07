@@ -9,9 +9,12 @@ Quiz app
 
 ![App Icon](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/Icon%20Image.png)
 
+
 ## Getting Started
 
 --> Womania is a quiz based app for broadening public knowledge about provisions provided by Indian government on women's safety and special facilities provided for them.
+
+![Welcome Scr](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/7.png)
 
 --> We designed an app for broadening public knowledge about provisions provided by Indian government on women's safety and special facilities provided for them.
 
@@ -19,5 +22,5 @@ Quiz app
 
 --> The overall theme of this app is to push the Indian society towards offering girl-child a better and safe environment to grow in.
 
+![UI](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/8.png)
 
-![Girl Pic](https://raw.githubusercontent.com/mrcodefrost/A7_Elementalists/main/Extras/Girl%20Pic.jpg)
