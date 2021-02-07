@@ -17,36 +17,63 @@ const List sample_data = [
       'SWADHAR Scheme',
       'Beti Bachao Beti Padhao'
     ],
-    "answer_index": 4,
+    "answer_index": 3,
   },
   {
     "id": 2,
-    "question":
-        "Which scheme helps in the prevention of trafficking and provide support for rescue, rehabilitation, reintegration and repatriation of women?",
-    "options": [
-      'Ujjawala scheme',
-      'STEP scheme',
-      'Priyadasrshini Scheme',
-      'DWCRA'
-    ],
-    "answer_index": 1,
+    "question": "Untouchability is abolished under __ of Indian constitution",
+    "options": ['Article 17', 'Article 202', 'Article 143', 'Article 27'],
+    "answer_index": 0,
   },
   {
     "id": 3,
     "question":
-        "Support to Training and Employment Programme for Women scheme is....",
+        "Support to Training and Employment Programme for Women scheme:",
     "options": [' SWADHAR', 'STEP', 'Nari Shakti Puraskar', 'RMK'],
-    "answer_index": 2,
+    "answer_index": 1,
   },
   {
     "id": 4,
-    "question": "Priyadarshini scheme provides:",
+    "question": "NCW stands for",
     "options": [
-      'Women Empowerment',
-      'Livelihood in Mid-Gangetic plains',
-      'Empower to address women legal, political and health problems',
-      'All the above are correct.'
+      'National Council for Women',
+      'National Committee for Women',
+      'National Commission for Women',
+      'National Congress for Women'
     ],
-    "answer_index": 4,
+    "answer_index": 2,
+  },
+  {
+    "id": 5,
+    "question": "First woman who became doctor in India",
+    "options": [
+      'Kadambini Ganguli',
+      'Cornelia Sorabji',
+      'Ujwala Rai',
+      'Anita Bose'
+    ],
+    "answer_index": 0,
+  },
+  {
+    "id": 6,
+    "question": "First woman to pass MA in India",
+    "options": [
+      'Leila Seth',
+      'Kadambani Bose',
+      'Thresia',
+      'Chandra Mukhi Bose'
+    ],
+    "answer_index": 3,
+  },
+  {
+    "id": 6,
+    "question": "First Woman IAS officer in India",
+    "options": [
+      'Anna George Malhotra',
+      'M. Fatima Biwi',
+      'Kiran Bedi',
+      'None of the above'
+    ],
+    "answer_index": 0,
   },
 ];

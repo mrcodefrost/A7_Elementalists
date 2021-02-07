@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:womania/screens/quiz.dart';
+import 'package:get/get.dart';
+import 'package:womania/screens/welcome.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,11 +9,11 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Womania',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: QuizScreen(),
+      home: WelcomeScreen(),
     );
   }
 }
