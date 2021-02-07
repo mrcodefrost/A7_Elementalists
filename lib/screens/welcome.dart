@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:womania/screens/quiz.dart';
 
 import '../const.dart';
 
@@ -60,7 +62,7 @@ class WelcomeScreen extends StatelessWidget {
                 ),
                 Spacer(),
                 InkWell(
-                  onTap: () {},
+                  onTap: () => Get.to(QuizScreen()),
                   child: Container(
                     alignment: Alignment.center,
                     width: double.infinity,

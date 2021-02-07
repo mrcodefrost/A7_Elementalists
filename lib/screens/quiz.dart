@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:womania/controllers/questions_ctrl.dart';
 import 'package:womania/screens/parts/body.dart';
 
 class QuizScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    QuestionControl _control = Get.put(QuestionControl());
     return Scaffold(
       backgroundColor: Colors.purpleAccent,
       extendBodyBehindAppBar: true,
@@ -12,7 +15,7 @@ class QuizScreen extends StatelessWidget {
         elevation: 0,
         actions: [
           FlatButton(
-            onPressed: () {},
+            onPressed: _control.nextQuestion,
             child: Text("Skip"),
           )
         ],
