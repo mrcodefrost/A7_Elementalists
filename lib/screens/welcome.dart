@@ -70,7 +70,7 @@ class WelcomeScreen extends StatelessWidget {
                       'Handcrafted for a better tomorrow',
                       style: TextStyle(
                         fontFamily: 'Cinzel',
-                        fontSize: 16.0,
+                        fontSize: 14.0,
                         fontWeight: FontWeight.w900,
                         color: Colors.teal.shade700,
                       ),

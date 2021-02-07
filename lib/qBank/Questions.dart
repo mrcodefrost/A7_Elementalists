@@ -34,14 +34,9 @@ const List sample_data = [
   },
   {
     "id": 4,
-    "question": "NCW stands for",
-    "options": [
-      'National Council for Women',
-      'National Committee for Women',
-      'National Commission for Women',
-      'National Congress for Women'
-    ],
-    "answer_index": 2,
+    "question": "International Women’s Day celebrated worldwide",
+    "options": ['8 March', '8 April', '8 February', '8 June'],
+    "answer_index": 0,
   },
   {
     "id": 5,
@@ -95,7 +90,7 @@ const List sample_data = [
       '1800-102-7222',
       '1800-102-7002',
       '1800-102-7001',
-      'D.	1800-102-7000'
+      '1800-102-7000'
     ],
     "answer_index": 0,
   },
