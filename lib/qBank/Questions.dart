@@ -66,7 +66,7 @@ const List sample_data = [
     "answer_index": 3,
   },
   {
-    "id": 6,
+    "id": 7,
     "question": "First Woman IAS officer in India",
     "options": [
       'Anna George Malhotra',
@@ -77,35 +77,25 @@ const List sample_data = [
     "answer_index": 0,
   },
   {
-    "id": 6,
-    "question": "First Woman IAS officer in India",
-    "options": [
-      'Anna George Malhotra',
-      'M. Fatima Biwi',
-      'Kiran Bedi',
-      'None of the above'
-    ],
+    "id": 8,
+    "question": "Children’s helpline number in India:",
+    "options": ['1091', '1551', '101', '1098'],
+    "answer_index": 3,
+  },
+  {
+    "id": 9,
+    "question": "Woman’s helpline number in India:",
+    "options": ['1091', '1551', '101', '1098'],
     "answer_index": 0,
   },
   {
-    "id": 6,
-    "question": "First Woman IAS officer in India",
+    "id": 10,
+    "question": "Bachpan Bachao Andolan Helpline No.:",
     "options": [
-      'Anna George Malhotra',
-      'M. Fatima Biwi',
-      'Kiran Bedi',
-      'None of the above'
-    ],
-    "answer_index": 0,
-  },
-  {
-    "id": 6,
-    "question": "First Woman IAS officer in India",
-    "options": [
-      'Anna George Malhotra',
-      'M. Fatima Biwi',
-      'Kiran Bedi',
-      'None of the above'
+      '1800-102-7222',
+      '1800-102-7002',
+      '1800-102-7001',
+      'D.	1800-102-7000'
     ],
     "answer_index": 0,
   },
