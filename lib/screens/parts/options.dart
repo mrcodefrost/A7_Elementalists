@@ -4,7 +4,6 @@ import 'package:womania/const.dart';
 import 'package:womania/controllers/questions_ctrl.dart';
 
 class Options extends StatelessWidget {
-  //try replacing options with option
   const Options({
     Key key,
     this.text,

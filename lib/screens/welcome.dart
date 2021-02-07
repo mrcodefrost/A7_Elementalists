@@ -12,7 +12,6 @@ class WelcomeScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          // WebsafeSvg.asset("assets/4.svg"),
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
