@@ -17,7 +17,6 @@ class Body extends StatelessWidget {
     QuestionControl _questioncontrol = Get.put(QuestionControl());
     return Stack(
       children: [
-        // WebsafeSvg.asset('assets/2.svg'),
         SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
