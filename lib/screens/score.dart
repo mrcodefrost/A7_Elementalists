@@ -8,7 +8,7 @@ class ScoreScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     QuestionControl _qnControl = Get.put(QuestionControl());
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: Stack(
         fit: StackFit.expand,
         children: [
@@ -35,6 +35,8 @@ class ScoreScreen extends StatelessWidget {
               Spacer(),
               Divider(
                 color: Colors.deepPurpleAccent.shade200,
+                indent: 130.0,
+                endIndent: 130.0,
               ),
               Text(
                 "${_qnControl.numOfCorrectAns * 10}/${_qnControl.questions.length * 10}",
@@ -47,6 +49,8 @@ class ScoreScreen extends StatelessWidget {
               ),
               Divider(
                 color: Colors.deepPurpleAccent.shade200,
+                indent: 130.0,
+                endIndent: 130.0,
               ),
               Spacer(flex: 3),
             ],
