@@ -8,7 +8,7 @@ class ScoreScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     QuestionControl _qnControl = Get.put(QuestionControl());
     return Scaffold(
-      backgroundColor: Colors.greenAccent.shade100,
+      backgroundColor: Colors.black,
       body: Stack(
         fit: StackFit.expand,
         children: [

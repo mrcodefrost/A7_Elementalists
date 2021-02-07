@@ -18,7 +18,7 @@ class WelcomeScreen extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
-                stops: [0.09, 0.4, 0.1],
+                stops: [0.09, 0.4, 5],
                 colors: [Colors.greenAccent, Colors.white, Colors.greenAccent],
               ),
             ),
@@ -49,17 +49,37 @@ class WelcomeScreen extends StatelessWidget {
                 SizedBox(
                   height: 20.0,
                 ),
-                TextField(
-                  decoration: InputDecoration(
-                    hoverColor: Colors.deepOrange,
-                    filled: true,
-                    fillColor: Colors.greenAccent.shade400, //0xFF1C2341
-                    hintText: 'Full Name',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                // TextField(
+                //   decoration: InputDecoration(
+                //     hoverColor: Colors.deepOrange,
+                //     filled: true,
+                //     fillColor: Colors.greenAccent.shade400, //0xFF1C2341
+                //     hintText: 'Full Name',
+                //     border: OutlineInputBorder(
+                //       borderRadius: BorderRadius.all(Radius.circular(10)),
+                //     ),
+                //   ),
+                // ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Text(
+                      'Handcrafted for a better tomorrow',
+                      style: TextStyle(
+                        fontFamily: 'Cinzel',
+                        fontSize: 16.0,
+                        fontWeight: FontWeight.w900,
+                        color: Colors.teal.shade700,
+                      ),
                     ),
-                  ),
+                    Icon(
+                      Icons.pregnant_woman_rounded,
+                      color: Colors.pink.shade700,
+                      size: 40.0,
+                    ),
+                  ],
                 ),
+
                 Spacer(),
                 InkWell(
                   onTap: () => Get.to(QuizScreen()),

@@ -76,7 +76,7 @@ class QuestionControl extends GetxController with SingleGetTickerProviderMixin {
     _animationController.stop();
     update();
 
-    Future.delayed(Duration(seconds: 3), () {
+    Future.delayed(Duration(seconds: 2), () {
       nextQuestion();
     });
   }
